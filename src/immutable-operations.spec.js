@@ -1,14 +1,3 @@
-// This is a Jest spec that explores some of the different ways to alter
-// arrays and objects without mutating state.  I'm trying different approaches
-// available using:
-//
-// * Vanilla JS
-// * Immutable.js
-// * Lodash
-// * Ramda
-//
-// The motivation for this is largely to work with a Redux store.
-
 import R from "ramda";
 import _ from "lodash";
 import { Map, List } from "immutable";
